@@ -1,0 +1,11 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:mountains": "2021-07-02 18:13:39 -0400",
+      "minecraft:taiga": "2021-07-02 18:13:25 -0400",
+      "minecraft:river": "2021-07-02 18:13:38 -0400"
+    },
+    "done": false
+  },
+  "DataVersion": 2724
+}

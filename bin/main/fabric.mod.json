@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "koalasfruits",
+  "version": "${version}",
+
+  "name": "Koala's Fruits",
+  "description": "Adds various different fruits to Minecraft!",
+  "authors": [
+    "KoalaCoder"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC BY-NC-SA 3.0",
+  "icon": "assets/koalasfruits/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "koalacoder.koalas.fruits.KoalasFruits"
+    ]
+  },
+  "mixins": [
+    "koalasfruits.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
